@@ -18,10 +18,6 @@
 
 A Streamlit-based web application that analyzes document images using Google Generative AI (Gemini) and stores both the original document and analysis in Amazon S3.
 
-<p align="center">
-  <img src="https://img.icons8.com/color/96/insight--v1.png" width="80" alt="Insight Icon" />
-</p>
-
 ## Table of Contents
 
 - [Overview](#overview)
