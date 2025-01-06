@@ -187,3 +187,41 @@ Go to **Settings > Secrets and variables > Actions** in your GitHub repository a
 * `GOOGLE_API_KEY`
 
 With these secrets configured, any push to the main branch triggers the build-and-deploy workflow.
+
+
+## Screenshots
+
+### 1. Uploading an Image
+
+![App Upload Image](app_upload_image.png)
+
+### 2. Analysis Results
+
+| Screenshot                      | Description                     |
+|--------------------------------|---------------------------------|
+| ![Analysis 1](app_analysis_1.png) | First analysis page demo        |
+| ![Analysis 2](app_analysis_2.png) | Second analysis page demo       |
+| ![Analysis 3](app_analysis_3.png) | Third analysis page demo        |
+
+### 3. Example Original Image
+
+![Original Uploaded Image](avgfitnesschange.png)
+
+### 4. AWS ECR
+
+![ECR Screenshot](ecr.png)
+
+### 5. AWS ECS
+
+![ECS Screenshot](ecs.png)
+
+### 6. GitHub Actions
+
+| Screenshot                                                 | Description                     |
+|------------------------------------------------------------|---------------------------------|
+| ![GitHub Actions Full](github_actions_full.png)            | Full GitHub Actions workflow    |
+| ![GitHub Actions Partial](github_actions.png)              | Partial view of the CI/CD steps |
+
+### 7. S3 Bucket
+
+![S3 Bucket Screenshot](s3_bucket.png)
