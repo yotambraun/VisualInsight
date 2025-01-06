@@ -9,3 +9,5 @@ __pycache__/
 *.tfstate.backup
 terraform.tfvars
 temp_image.jpg
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
