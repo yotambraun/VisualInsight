@@ -1,6 +1,26 @@
 # VisualInsight - Document Analyzer
+<p align="center">
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python 3.9" />
+  <!-- Streamlit -->
+  <img src="https://img.shields.io/badge/Streamlit-✔-brightgreen.svg" alt="Streamlit" />
+  <!-- Google Generative AI (Gemini) -->
+  <img src="https://img.shields.io/badge/Google%20Generative%20AI-Gemini-orange.svg" alt="Google Generative AI (Gemini)" />
+  <!-- AWS -->
+  <img src="https://img.shields.io/badge/AWS-S3 | ECS | ECR | IAM-yellow.svg" alt="AWS Services" />
+  <!-- Docker -->
+  <img src="https://img.shields.io/badge/Docker-Container-blue.svg" alt="Docker" />
+  <!-- Terraform -->
+  <img src="https://img.shields.io/badge/Terraform-✔-purple.svg" alt="Terraform" />
+  <!-- GitHub Actions -->
+  <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-green.svg" alt="GitHub Actions" />
+</p>
 
 A Streamlit-based web application that analyzes document images using Google Generative AI (Gemini) and stores both the original document and analysis in Amazon S3.
+
+<p align="center">
+  <img src="https://img.icons8.com/color/96/insight--v1.png" width="80" alt="Insight Icon" />
+</p>
 
 ## Table of Contents
 
