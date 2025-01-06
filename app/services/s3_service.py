@@ -29,8 +29,16 @@ class S3Service:
                 file_key
             )
             
-            # Generate URL
-            url = f"https://{self.bucket_name}.s3.amazonaws.com/{file_key}"
+            # Generate presigned URL that expires in 1 hour
+            url = self.s3_client.generate_presigned_url(
+                'get_object',
+                Params={
+                    'Bucket': self.bucket_name,
+                    'Key': file_key
+                },
+                ExpiresIn=3600
+            )
+            
             logger.info(f"File uploaded successfully: {url}")
             return url
             

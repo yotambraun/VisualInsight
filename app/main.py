@@ -19,7 +19,6 @@ llm_service = LLMService()
 def main():
     st.title("Document Analyzer")
     
-    # File upload
     uploaded_file = st.file_uploader("Upload a document", type=['png', 'jpg', 'jpeg'])
     
     if uploaded_file:
@@ -27,18 +26,16 @@ def main():
         image = Image.open(uploaded_file)
         st.image(image, caption='Uploaded Document', use_column_width=True)
         
-        # Analysis button
         if st.button('Analyze Document'):
             with st.spinner('Processing...'):
                 try:
-                    # Upload to S3
+                    # Analyze with LLM directly
+                    logger.info("Starting document analysis")
+                    analysis = llm_service.analyze_document(image)
+                    
+                    # Upload to S3 for storage
                     logger.info(f"Uploading file: {uploaded_file.name}")
                     s3_url = s3_service.upload_file(uploaded_file)
-                    st.success("File uploaded successfully!")
-                    
-                    # Analyze with LLM
-                    logger.info("Starting document analysis")
-                    analysis = llm_service.analyze_document(s3_url)
                     
                     # Display results
                     st.success("Analysis Complete!")
