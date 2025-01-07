@@ -32,6 +32,8 @@ A Streamlit-based web application that analyzes document images using Google Gen
   - [Running the Container](#running-the-container)
 - [Terraform Deployment](#terraform-deployment)
 - [CI/CD with GitHub Actions](#cicd-with-github-actions)
+- [Screenshots](#screenshots)
+- [License](#license)
 
 ---
 
@@ -209,35 +211,40 @@ With these secrets configured, any push to the main branch triggers the build-an
 
 ### 1. Uploading an Image
 
-![App Upload Image](app_upload_image.png)
+![App Upload Image](assets/images/app_upload_image.png)
 
 ### 2. Analysis Results
 
 | Screenshot                      | Description                     |
 |--------------------------------|---------------------------------|
-| ![Analysis 1](app_analysis_1.png) | First analysis page demo        |
-| ![Analysis 2](app_analysis_2.png) | Second analysis page demo       |
-| ![Analysis 3](app_analysis_3.png) | Third analysis page demo        |
+| ![Analysis 1](assets/images/app_analysis_1.png) | First analysis page demo        |
+| ![Analysis 2](assets/images/app_analysis_2.png) | Second analysis page demo       |
+| ![Analysis 3](assets/images/app_analysis_3.png) | Third analysis page demo        |
 
 ### 3. Example Original Image
 
-![Original Uploaded Image](avgfitnesschange.png)
+![Original Uploaded Image](assets/images/avgfitnesschange.png)
 
 ### 4. AWS ECR
 
-![ECR Screenshot](ecr.png)
+![ECR Screenshot](assets/images/ecr.png)
 
 ### 5. AWS ECS
 
-![ECS Screenshot](ecs.png)
+![ECS Screenshot](assets/images/ecs.png)
 
 ### 6. GitHub Actions
 
 | Screenshot                                                 | Description                     |
 |------------------------------------------------------------|---------------------------------|
-| ![GitHub Actions Full](github_actions_full.png)            | Full GitHub Actions workflow    |
-| ![GitHub Actions Partial](github_actions.png)              | Partial view of the CI/CD steps |
+| ![GitHub Actions Full](assets/images/github_actions_full.png)            | Full GitHub Actions workflow    |
+| ![GitHub Actions Partial](assets/images/github_actions.png)              | Partial view of the CI/CD steps |
 
 ### 7. S3 Bucket
 
-![S3 Bucket Screenshot](s3_bucket.png)
+![S3 Bucket Screenshot](assets/images/s3_bucket.png)
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
