@@ -1,4 +1,4 @@
-# VisualInsight - Document Analyzer
+# VisualInsight - App using Google Generative AI (Gemini)
 <p align="center">
   <!-- Python -->
   <img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python 3.9" />
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-green.svg" alt="GitHub Actions" />
 </p>
 
-A Streamlit-based web application that analyzes document images using Google Generative AI (Gemini) and stores both the original document and analysis in Amazon S3.
+A Streamlit-based web application that analyzes images using Google Generative AI (Gemini) and stores both the original images and analysis in Amazon S3.
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ A Streamlit-based web application that analyzes document images using Google Gen
 
 ## Overview
 
-VisualInsight is a simple document-analyzer solution that:
+VisualInsight is a simple image-analysis solution that:
 
 1. Lets you upload an image (JPG/PNG) via the Streamlit interface.
 2. Sends the image to Google Generative AI (Gemini) for an analysis prompt.
@@ -65,7 +65,7 @@ VisualInsight is a simple document-analyzer solution that:
 ## Features
 
 - **Image Upload**: Users can upload images (JPEG, PNG, etc.).
-- **AI Document Analysis**: Using Google Generative AI API (Gemini).
+- **AI Image Analysis**: Using Google Generative AI API (Gemini).
 - **S3 Storage**: Uploaded images are stored in an S3 bucket.
 - **Dockerized**: Streamlit application wrapped in a Docker container.
 - **Scalable Infrastructure**: Terraform-managed infrastructure on AWS.
