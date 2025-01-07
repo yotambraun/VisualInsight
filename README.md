@@ -17,7 +17,7 @@
 </p>
 
 A Streamlit-based web application that analyzes images using Google Generative AI (Gemini) and stores both the original images and analysis in Amazon S3.
-
+I have also written a [Medium article](https://medium.com/@yotambraun/visualinsight-an-end-to-end-image-analysis-application-using-google-generative-ai-gemini-7847f6f0a1b9) about this project, detailing its features and implementation.
 ## Table of Contents
 
 - [Overview](#overview)

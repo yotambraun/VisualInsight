@@ -12,11 +12,11 @@ class LLMService:
         self.model = genai.GenerativeModel('gemini-1.5-flash-002')
         
         self.prompt = """
-        Analyze this document and provide:
-        1. Document type
-        2. Key information
-        3. Important details
-        4. Notable observations
+        Analyze this Image and provide:
+          1. Image type
+          2. Key information
+          3. Important details
+          4. Notable observations
         """
 
     def analyze_document(self, image: Image.Image) -> dict:
