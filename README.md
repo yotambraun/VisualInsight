@@ -50,6 +50,8 @@ VisualInsight is a simple image-analysis solution that:
 
 ## Architecture
 
+![Architecture Diagram](assets/images/architecture_VisualInsight.png)
+
 1. **Frontend**: Streamlit application (Python).
 2. **Backend**: 
    - AWS S3 for file storage.
